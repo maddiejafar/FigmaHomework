@@ -1,0 +1,555 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#Home-2 {
+    background-color: #052825;
+    margin: auto;
+    list-style-type: none;
+}
+
+#Home-2 .Header-2 {
+    background-color: #FFFFFF;
+}
+
+.Header-2 nav {
+    padding-top: 21px;
+    padding-bottom: 20.25px;
+}
+
+.Header-2 nav a {
+    display: flex;
+    align-items: center;
+}
+
+.Container {
+    width: 1200px;
+    margin: auto;
+}
+
+#navbar {
+    display: flex;
+}
+
+#Home-2 .Header-2 .Content-nav {
+    margin-left: 53px;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    column-gap: 31px;
+}
+
+#Home-2 .Header-2 .Content-nav a {
+    color: #191919;
+}
+
+.book-a-meeting-btn {
+    padding: 5px 20px;
+    background-color: #2E4FD7;
+    border: none;
+    color: #FFF;
+    margin-left: auto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+.book-a-meeting-btn:hover {
+    background-color: #1A3BC3;
+}
+
+#Hero-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 145px;
+    margin-bottom: 146px;
+}
+
+#Hero-2 > div:first-child h1{
+    width: 635px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+#Hero-2 > div:first-child > p {
+    width: 468px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    color: #FFF;
+    margin: 30px 0 42px;
+}
+
+.book-a-meeting-btn-2 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    background-color: #2E4FD7;
+    border: none;
+    padding: 15px 25px;
+    cursor:pointer;
+    transition: 0.4s;
+}
+
+.book-a-meeting-btn-2:hover {
+    background-color: #1A3BC3;
+}
+
+#Hero-2 > div:first-child .button-container {
+    display: flex;
+    align-items: center;
+    column-gap: 21px;
+}
+
+#Hero-2 > div:first-child .button-container p {
+    width: 250px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    color: #FFF;
+}
+
+#Hero-2 > div:last-child img {
+    border-radius: 3px;
+}
+
+.social-media {
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+#Section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 108px;
+    padding-bottom: 111px;
+}
+
+#Section-2 .left > h3 {
+    color: #FFF;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+} 
+
+#Section-2 .left > p {
+    color: #FFF;
+    width: 540px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    margin-top: 8px;
+    margin-bottom: 36px;
+}
+
+#Section-2 .info-container {
+    display: flex;
+    column-gap: 82px;
+}
+
+#Section-2 .info-container .info div:first-child {
+    display: flex;
+    align-items:baseline;
+}
+
+#Section-2 .info-container .info div:first-child p:first-child {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.3px;
+}
+
+#Section-2 .info-container .info div:first-child p:last-child {
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: -0.939px;
+}
+
+#Section-2 .info-container .info div:last-child p {
+    color: #FFF;
+    width: 203px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.289px;
+}
+
+#Section-2 .right .rectangle {
+    width: 530px;
+    height: 350px;
+    background-color: #E7EBFC;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Section-2 .right .rectangle img {
+    cursor: pointer;
+}
+
+#Section-5 {
+    margin-top: 111px;
+    margin-bottom: 111px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+#Section-5 h2 {
+    color: #FFF;
+    width: 540px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+}
+
+#Section-5 .group {
+    margin-top: 68px;
+    display: flex;
+    column-gap: 30px;
+}
+
+#Section-5 .group .box h6
+{
+    color: #FFF;
+    margin-top: 16px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.361px;
+}
+
+#Section-5 .group .box p {
+    color: #FFF;
+    width: 255px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.289px;
+}
+
+#Case-Studies-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Case-Studies-1 .rectangle {
+    background-color: #E7EBFC;
+    width: 1110px;
+    height: 700px;
+    border-radius: 3px;
+    margin: 115px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Case-Studies-1 .rectangle .left {
+    margin-top: 119px;
+    margin-left: 95px;
+}
+
+#Case-Studies-1 .rectangle h3 {
+    color: #191919;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+}
+
+#Case-Studies-1 .rectangle .left > p {
+    width: 588px;
+    color: #1E1E1E;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+    margin: 32px 0;
+}
+
+#Case-Studies-1 .rectangle .left .Read {
+    color: #2E4FD7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+} 
+
+#Case-Studies-1 .rectangle .left .Read p 
+{
+    letter-spacing: -0.29px;
+    margin: -12px 0 18px;
+}
+
+#Case-Studies-1 .rectangle .right img {
+    margin-top: 116px;
+}
+
+#Process-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 58px;
+}
+
+
+#Process-3 .group {
+    margin-top: 64px;
+    display: flex;
+    column-gap: 30px;
+}
+
+#Process-3 h3{
+    color: #FFF;
+    width: 730px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+}
+
+#Process-3 .group div:first-child {
+    display: flex;
+    column-gap: 16px;
+}
+
+#Process-3 .group div:first-child .round 
+{
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+    background-color: #E7EBFC;
+}
+
+#Process-3 .group div:first-child .round img {
+    padding: 24px;
+}
+
+#Process-3 .group div:last-child p:first-child {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+    margin: 16px 0 4px;
+}
+
+#Process-3 .group div:last-child p:last-child {
+    color: #FFF;
+    width: 255px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#Process-3 .group .approach 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#CTA-1 
+{
+    text-align: center;
+}
+
+#CTA-1 > div 
+{
+    padding-top: 103px;
+    padding-bottom: 97.5px;
+}
+
+#CTA-1 > div .text  
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#CTA-1 h2 {
+    color: #FFF;
+    width: 920px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    text-align: center;
+}
+
+#CTA-1 p {
+    color: #FFF;
+    width: 826px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    text-align: center;
+    margin: 24px 0 61px;
+}
+
+#CTA-1 > div .line {
+    width: 1110px;
+    height: 2px;
+    background-color: #B4B4B4;
+    margin-top: 43px;
+    margin-bottom: 50px;
+}
+
+#CTA-1 > div .social-medias 
+{
+    height: 43.5px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+#Footer-1  > div
+{
+    margin-top: 70px;
+    padding-bottom: 44px;
+}
+
+#Footer-1 .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Footer-1 .top .left div p:first-of-type {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+#Footer-1 .top .left div p:last-of-type 
+{
+    color: #FFF;
+    width: 423px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#Footer-1 .top .left .text button 
+{
+    padding: 10px 0;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#Footer-1 .top .right .content 
+{
+    display: flex;
+    column-gap: 26px;
+}
+
+#Footer-1 .top .right .content a
+{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#Footer-1 > div .bottom 
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Footer-1 > div .bottom p:first-child 
+{
+    color: #FFF;
+    width: 387px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+}
+
+#Footer-1 > div .bottom p:last-child 
+{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+}
+
+#Footer-1 > div .line 
+{
+    width: 1170px;
+    height: 1.4px;
+    background-color: #FFF;
+    opacity: 0.07999999821186066;
+}
