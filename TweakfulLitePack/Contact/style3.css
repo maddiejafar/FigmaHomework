@@ -1,0 +1,236 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+#header-section {
+    background-color: #FEFEFE;
+    padding: 21px 0 20.25px;
+}
+
+#header-section nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+#header-section nav .book-a-meeting-btn1 {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    background-color: #2E4FD7;
+    margin-left: auto;
+    padding: 5px 20px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 1px;
+}
+
+#header-section nav .book-a-meeting-btn1:hover {
+    background-color: #1A3BC3;
+}
+
+#header-section nav .content-nav {
+    margin-left: 53px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    display: flex;
+    column-gap: 31px;
+}
+
+#header-section nav .content-nav a {
+    color: #1E1E1E;
+}
+
+.gray-background {
+    background-color: #E7EBFC;
+    height: 550px;
+}
+
+.white-background {
+    color: #fff;
+}
+
+.container {
+    width: 1161px;
+}
+
+#contact {
+    padding-top: 109px;
+}
+
+#contact .left h1 {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+}
+
+#contact .left p {
+    width: 480px;
+    color: #64626A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+}
+
+#contact > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact > div .left .buttons button:first-child {
+    color: #fff;
+    width: 180px;
+    height: 74px;
+    background-color: #2E4FD7;
+    cursor: pointer;
+}
+
+#contact > div .left .buttons button div:first-child{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.175px;
+}
+
+#contact > div .left .buttons button:last-child {
+    color: #2E4FD7;
+    width: 205px;
+    height: 74px;
+    background-color: #fff;
+    border: 1px solid #2E4FD7;
+    cursor: pointer;
+}
+
+#contact > div .left .buttons button div:last-child {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+#contact > div .left .buttons {
+    display: flex;
+    column-gap: 30px;
+}
+
+#contact > div .left .buttons button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+#contact > div .right .rectangle h6 {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contact > div .right .rectangle p {
+    width: 390px;
+    color: #64626A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+#contact > div  .right .rectangle {
+    width: 487px;
+    height: 662px;
+    background-color: #fff;
+    border: 1px solid #B4B4B4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#contact > div  .right .rectangle .inputs .name-email div input {
+    padding: 17px 15px 18px 18px;
+    border: 1px solid #B4B4B4;
+    outline: none;
+}
+
+#contact > div  .right .rectangle .inputs .name-email div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact > div  .right .rectangle .inputs .name-email {
+    display: flex;
+    column-gap: 19px;
+}
+
+#contact > div  .right .rectangle .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact > div  .right .rectangle .inputs .message {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact > div  .right .rectangle .inputs label {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+#contact > div  .right .rectangle .inputs input {
+    color: #B3B1B7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.175px;
+}
+
+#contact > div  .right .rectangle .inputs .topic input{
+    padding: 17px 200px 18px 18px;
+    border: 1px solid #B4B4B4;
+    outline: none;
+}
+
+#contact > div  .right .rectangle .inputs .message input {
+    padding: 17px 240px 88px 18px;
+    border: 1px solid #B4B4B4;
+    outline: none;
+}
