@@ -1,0 +1,524 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+#header-section {
+    background-color: #FEFEFE;
+    padding: 21px 0 20.25px;
+}
+
+#header-section nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+#header-section nav .book-a-meeting-btn1 {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    background-color: #2E4FD7;
+    margin-left: auto;
+    padding: 5px 20px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 1px;
+}
+
+#header-section nav .book-a-meeting-btn1:hover {
+    background-color: #1A3BC3;
+}
+
+#header-section nav .content-nav {
+    margin-left: 53px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    display: flex;
+    column-gap: 31px;
+}
+
+#header-section nav .content-nav a {
+    color: #1E1E1E;
+}
+
+.green-background {
+    background-color: #052825;
+}
+
+#gist-section {
+    padding: 134px 0 99px;
+}
+
+#gist-section div h1 {
+    color: #fff;
+    width: 923px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+    margin-bottom: 31px;
+}
+
+#gist-section > div > p {
+    color: #fff;
+    width: 900px;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+   
+}
+
+#gist-section div .ceo {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    margin: 36px 0;
+}
+
+#gist-section div .ceo img{
+    border-radius: 100px;
+    width: 90px;
+}
+
+#gist-section div .ceo .info p:first-child {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+#gist-section div .ceo .info p:last-child {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#gist-section div button {
+    border-radius: 1px;
+    padding: 15px 25px;
+    background-color: #2E4FD7;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#gist-section div button:hover {
+    background-color: #1A3BC3;
+}
+
+#solutions-section {
+    padding: 122px 0 150px;
+}
+
+#solutions-section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#solutions-section div h2 {
+    color: #fff;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    width: 730px;
+    text-align: center;
+}
+
+#solutions-section > div .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 52px 0 38px;
+}
+
+#solutions-section > div .features-list .row {
+    display: flex;
+    column-gap: 30px;
+}
+
+#solutions-section > div .features-list .row .feature{
+    background-color: #fff;
+    width: 274px;
+    height: 286px;
+    padding: 40px 32px;
+    box-sizing: content-box;
+    border-radius: 3px;
+}
+
+#solutions-section > div .features-list .row .details p:first-of-type {
+    color: #191919;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+    margin: 56px 0 12px;
+} 
+
+#solutions-section > div .features-list .row .details p:last-of-type {
+    color: #191919;
+    width: 286px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#solutions-section > div .features-list .row .link-button {
+    background-color: transparent;
+    color: #2E4FD7;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+#solutions-section > div .features-list .row .link-button:hover {
+    color: #1A3BC3;
+}
+
+#solutions-section > div .features-list .row .feature {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#solutions-section > div .button-text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    background-color: transparent;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 1px;
+    border: 1px solid #fff;
+    padding: 15px 25px;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+#benefits {
+    padding: 132px 0;
+}
+
+#benefits > div h2 {
+    color: #18191F;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    margin-bottom: 38px;
+}
+
+#benefits > div .group {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+#benefits > div .row {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+#benefits > div .row .details {
+    display: flex;
+    column-gap: 40px;
+}
+
+#benefits > div .row .details .icon {
+    background-color: #E7EBFC;
+    border-radius: 100px;
+    padding: 24px;
+    width: 72px;
+    height: 72px;
+}
+
+#benefits > div .row .details .text p:first-child {
+    color: #18191F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+}
+
+#benefits > div .row .details .text p:last-child {
+    color: #18191F;
+    width: 428px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+.container2 {
+    width: 1100px;
+    margin: auto;
+}
+
+#delivery {
+    padding: 85.5px 0;
+}
+
+#delivery > div  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+#delivery > div .average {
+    display: flex;
+    column-gap: 30px;
+}
+
+#delivery > div .arrow {
+    background-color: #E7EBFC;
+    border-radius: 65px;
+    padding: 16.5px;
+    width: 65px;
+    height: 65px;
+}
+
+#delivery > div .average .text h6 {
+    color: #191919;
+    width: 540px;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+    margin-bottom: 66px;
+}
+
+#delivery > div .average .text p:first-of-type {
+    color: #1A1A1A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: -0.43px;
+    margin: 4px 0;
+}
+
+#delivery > div .average .text p:last-of-type {
+    color: #767676;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#social-media {
+    padding: 58px 0;
+}
+
+#social-media > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-media > div .left p:first-child {
+    color: #18191F;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.76px;
+}
+
+#social-media > div .left p:last-child {
+    color: #18191F;
+    width: 350px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+}
+
+#social-media > div .right .list {
+    display: flex;
+    column-gap: 30px;
+}
+
+#social-media > div .right .list a {
+    width: 160px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#teammates {
+    padding: 127px 0;
+}
+
+#teammates > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#teammates > div h2 {
+    color: #191919;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    margin-bottom: 60px;
+}
+
+#teammates > div .group .list{
+    display: flex;
+    column-gap: 30px;
+}
+
+#teammates > div .group .list .teammate .rectangle {
+    width: 255px;
+    height: 255px;
+    background-color:  #E7EBFC;
+    border-radius: 3px;
+}
+
+#teammates > div .group .list .teammate h4 {
+    color: #191919;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: -0.433px;
+    margin: 24px 0 4px;
+}
+
+#teammates > div .group .list .teammate h5 {
+    color: #767676;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.361px;
+    margin-bottom: 15px;
+}
+
+#teammates > div .group .list .teammate .icons {
+    display: flex;
+    column-gap: 8px;
+}
+
+#teammates > div .group .list .teammate .icons a {
+    width: 32px;
+    height: 32px;
+    background-color: #E7EBFC;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#closing {
+    padding: 114.5px 0;
+    background-color: #E7EBFC;
+}
+
+#closing > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#closing > div h2 {
+    width: 920px;
+    color: #191919;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+}
+
+#closing > div p {
+    color: #1E1E1E;
+    width: 826px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+}
+
+#closing > div .book-a-meeting-btn2 {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    background-color: #2E4FD7;
+    padding: 15px 25px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.container3 {
+    width: 1170px;
+    margin: auto;
+}
