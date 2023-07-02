@@ -39,7 +39,7 @@ html {
     column-gap: 10px;
     align-items: center;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.3s;
     border-radius: 1px;
 }
 
@@ -71,12 +71,14 @@ html {
     color: #fff;
 }
 
-.container {
+.container2 {
     width: 1161px;
+    margin: auto;
 }
 
 #contact {
     padding-top: 109px;
+    padding-bottom: 0;
 }
 
 #contact .left h1 {
@@ -87,6 +89,7 @@ html {
     line-height: 72px;
     letter-spacing: -1.16px;
     text-transform: capitalize;
+    margin-bottom: 29px;
 }
 
 #contact .left p {
@@ -97,6 +100,7 @@ html {
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.1px;
+    margin-bottom: 98px;
 }
 
 #contact > div{
@@ -110,6 +114,11 @@ html {
     height: 74px;
     background-color: #2E4FD7;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact > div .left .buttons button:first-child:hover {
+    background-color: #1A3BC3;
 }
 
 #contact > div .left .buttons button div:first-child{
@@ -127,6 +136,12 @@ html {
     background-color: #fff;
     border: 1px solid #2E4FD7;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact > div .left .buttons button:last-child:hover {
+    border-color: #1A3BC3;
+    color: #1A3BC3;
 }
 
 #contact > div .left .buttons button div:last-child {
@@ -140,6 +155,7 @@ html {
 #contact > div .left .buttons {
     display: flex;
     column-gap: 30px;
+    margin-bottom: 110px;
 }
 
 #contact > div .left .buttons button {
@@ -158,16 +174,19 @@ html {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin: 36px 0 18px;
 }
 
 #contact > div .right .rectangle p {
     width: 390px;
     color: #64626A;
+    font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
+    margin-bottom: 40px;
 }
 
 #contact > div  .right .rectangle {
@@ -176,33 +195,43 @@ html {
     background-color: #fff;
     border: 1px solid #B4B4B4;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 #contact > div  .right .rectangle .inputs .name-email div input {
-    padding: 17px 15px 18px 18px;
+    padding: 18px;
     border: 1px solid #B4B4B4;
     outline: none;
+    width: 204px;
+    height: 52px;
 }
 
 #contact > div  .right .rectangle .inputs .name-email div {
     display: flex;
     flex-direction: column;
+    gap: 11px;
 }
 
 #contact > div  .right .rectangle .inputs .name-email {
     display: flex;
     column-gap: 19px;
-}
-
-#contact > div  .right .rectangle .inputs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 24px;
 }
 
 #contact > div  .right .rectangle .inputs .message {
     display: flex;
     flex-direction: column;
+    gap: 11px;
+}
+
+#contact > div  .right .rectangle .inputs .topic {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 24px;
 }
 
 #contact > div  .right .rectangle .inputs label {
@@ -223,14 +252,260 @@ html {
     letter-spacing: 0.175px;
 }
 
-#contact > div  .right .rectangle .inputs .topic input{
-    padding: 17px 200px 18px 18px;
+#contact > div  .right .rectangle .inputs .topic select{
     border: 1px solid #B4B4B4;
     outline: none;
+    width: 427px;
+    height: 52px;
 }
 
-#contact > div  .right .rectangle .inputs .message input {
-    padding: 17px 240px 88px 18px;
-    border: 1px solid #B4B4B4;
+#contact > div  .right .rectangle .inputs .message textarea {
+    padding: 18px;
     outline: none;
+    border: 1px solid #B4B4B4;
+    resize: none;
+    width: 427px;
+    height: 122px;
+    margin-bottom: 28px;
+}
+
+#contact > div .right .rectangle .contact-us{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    height: 56px;
+    width: 427px;
+    background-color: #2E4FD7;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#contact > div .right .rectangle .contact-us:hover {
+    background-color: #1A3BC3;
+}
+
+::placeholder {
+    color: #B3B1B7;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.175px;
+}
+
+select:invalid{
+    color: #B3B1B7;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.175px;
+}
+
+option{
+    color: #000;
+}
+
+.container3 {
+    width: 1140px;
+    margin: auto;
+}
+
+#offices {
+    padding-top: 309px;
+    padding-bottom: 203px;
+}
+
+#offices > div .item h2 {
+    color: #000;
+    font-size: 52px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.94px;
+    margin-bottom: 87px;
+}
+
+#offices > div .item > p {
+    color: #64626A;
+    width: 420px;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    margin-bottom: 87px;
+}
+
+#offices > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#offices > div > div .item .maps .info h4 {
+    color: #191919;
+    font-size: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.58px;
+    margin: 30px 0 10px;
+}
+
+#offices > div > div .item .maps .info p {
+    color: #1E1E1E;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+    margin-bottom: 28px;
+}
+
+#offices > div > div .item .maps .info button {
+    color: #2E4FD7;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    text-rendering: 0.3s;
+}
+
+#offices > div > div .item .maps .info button:hover {
+    color: #1A3BC3;
+}
+
+.container3 {
+    width: 1170px;
+    margin: auto;
+}
+
+.green-background {
+    background-color: #052825;
+}
+
+#footer {
+    padding: 70px 0 44px;
+}
+
+#footer > div .top .left p:first-of-type {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    margin: 33px 0 6px;
+}
+
+#footer > div .top .left p:last-of-type {
+    color: #FFF;
+    width: 423px;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    margin: 6px 0;
+}
+
+#footer > div .top .left .button-text {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 22px;
+}
+
+#footer > div .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer > div .line {
+    background-color: #FFF;
+    opacity: 0.07999999821186066;
+    width: 1170px;
+    height: 1.4px;
+}
+
+#footer > div .top .right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-end;
+}
+
+#footer > div .top .right .list {
+    display: flex;
+    column-gap: 27px;
+}
+
+#footer > div .top .right .list:first-child {
+    margin-top: 52px;
+}
+
+#footer > div .top .right .list a {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+}
+
+#footer > div .bottom p:first-child {
+    color: #FFF;
+    width: 387px;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    margin-top: 30.6px;
+}
+
+#footer > div .bottom p:last-child {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.25px;
+    margin-top: 36.6px;
+}
+
+#footer > div .bottom {
+    display: flex;
+    justify-content: space-between;
 }

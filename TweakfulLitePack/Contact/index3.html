@@ -28,8 +28,8 @@
             </button>
         </nav>
     </header>
-    <section id="contact" class="gray-background" class="white-background">
-        <div class="container">
+    <section id="contact" class="gray-background">
+        <div class="container2">
             <div class="left">
                 <h1>Contact Us</h1>
                 <p>If you have any questions about the subscription or are not sure which plan is right for you, contact our team and let’s schedule a call.</p>
@@ -42,6 +42,20 @@
                         <div>Email us</div>
                         <div>hello@openthrive.com</div>
                     </button>
+                </div>
+                <div class="icons">
+                    <a href="#">
+                        <img src="/TweakfulLitePack/Icons/google1.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/TweakfulLitePack/Icons/amazon1.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/TweakfulLitePack/Icons/intel1.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="/TweakfulLitePack/Icons/atlassian1.svg" alt="">
+                    </a>
                 </div>
             </div>
             <div class="right">
@@ -61,16 +75,97 @@
                         </div>
                         <div class="topic">
                             <label for="topic">Choose topic<span style="color:#2E4FD7">*</span></label>
-                            <input type="text" id="topic" placeholder="Select one topic">
+                            <select required name="topic" id="topic">
+                                <option value="" disabled selected hidden>Select one topic</option>
+                                <option value="">example</option>
+                                <option value="">example</option>
+                                <option value="">example</option>
+                              </select>
                         </div>
                         <div class="message">
                             <label for="message">Message<span style="color:#2E4FD7">*</span></label>
-                            <input type="text" id="message" placeholder="Write your message">
+                            <textarea name="" id="message" cols="30" rows="10" placeholder="Write your message"></textarea>
+                        </div>
+                    </div>
+                    <button class="contact-us">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offices" class="white-background">
+        <div class="container3">
+            <div>
+                <div class="item">
+                    <h2>Our offices</h2>
+                    <div class="maps">
+                        <img src="/TweakfulLitePack/Images/Item1.png" width="540px" alt="">
+                        <div class="info">
+                            <h4>Vancouver Office</h4>
+                            <p>1085 Homer St. Vancouver BC, Canada V6B 2X5</p>
+                            <button>
+                                Open in Maps
+                                <img src="/TweakfulLitePack/Icons/arrow-maps.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <p>Amazing cities, totally tricked out offices. Explore the world of Tweakful.</p>
+                    <div class="maps">
+                        <img src="/TweakfulLitePack/Images/Item2.png" width="540px" alt="">
+                        <div class="info">
+                            <h4>San Fransisco</h4>
+                            <p>1085 Homer St. Vancouver BC, Canada V6B 2X5</p>
+                            <button>
+                                Open in Maps
+                                <img src="/TweakfulLitePack/Icons/arrow-maps.svg" alt="">
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <footer id="footer" class="green-background">
+        <div class="container3">
+            <div class="top">
+                <div class="left">
+                    <a href="#">
+                        <img src="/TweakfulLitePack/Icons/Logonew.svg" alt="">
+                    </a>
+                    <p>About Tweakful</p>
+                    <p>Tweakful is HubSpot Theme Based On Engagement Design Framework, designed & developed by Openthrive.</p>
+                    <button class="button-text">
+                        Button Text
+                        <img src="/TweakfulLitePack/Icons/button-arrow.svg" alt="">
+                    </button>
+                </div>
+                <div class="right">
+                    <div class="list">
+                        <a href="#">Contact</a>
+                        <a href="#">Career</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms Of Services</a>
+                        <a href="#">GDPR</a>
+                        <a href="#">FAQs</a>
+                    </div>
+                    <div class="list">
+                        <a href="#">Blog</a>
+                        <a href="#">Capabilities</a>
+                        <a href="#">Resources</a>
+                        <a href="#">Partnership  Integration </a>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="bottom">
+                <p>
+                    B2B website and engagement design solution that transform
+                    marketing and sales performance like never before.
+                </p>
+                <p>© 2015-2020 Openthrive. All right reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
