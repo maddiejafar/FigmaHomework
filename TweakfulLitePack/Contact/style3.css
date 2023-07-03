@@ -11,6 +11,11 @@ html {
 }
 
 #header-section {
+    position: sticky;
+    top: 0;
+}
+
+#header-section {
     background-color: #FEFEFE;
     padding: 21px 0 20.25px;
 }
