@@ -7,79 +7,76 @@ html {
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    border: none;
 }
 
-#Home-2 {
-    background-color: #052825;
-    margin: auto;
-    list-style-type: none;
+#header-section {
+    background-color: #FEFEFE;
+    padding: 21px 0 20.25px;
 }
 
-#Home-2 .Header-2 {
-    background-color: #FFFFFF;
-}
-
-.Header-2 nav {
-    padding-top: 21px;
-    padding-bottom: 20.25px;
-}
-
-.Header-2 nav a {
+#header-section nav {
     display: flex;
     align-items: center;
 }
 
-.Container {
+.container {
     width: 1200px;
     margin: auto;
 }
 
-#navbar {
-    display: flex;
-}
-
-#Home-2 .Header-2 .Content-nav {
-    margin-left: 53px;
-    display: flex;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400px;
-    line-height: 26px;
-    letter-spacing: -0.29px;
-    column-gap: 31px;
-}
-
-#Home-2 .Header-2 .Content-nav a {
-    color: #191919;
-}
-
-.book-a-meeting-btn {
-    padding: 5px 20px;
-    background-color: #2E4FD7;
-    border: none;
-    color: #FFF;
-    margin-left: auto;
+#header-section nav .book-a-meeting-btn1 {
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: -0.25px;
-    cursor:pointer;
-    transition: 0.4s;
+    background-color: #2E4FD7;
+    margin-left: auto;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 1px;
 }
 
-.book-a-meeting-btn:hover {
+#header-section nav .book-a-meeting-btn1:hover {
     background-color: #1A3BC3;
 }
 
-#Hero-2 {
+#header-section nav .content-nav {
+    margin-left: 53px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.29px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 145px;
-    margin-bottom: 146px;
+    column-gap: 31px;
 }
 
-#Hero-2 > div:first-child h1{
+#header-section nav .content-nav a {
+    color: #1E1E1E;
+}
+
+body {
+    background-color: #052825;
+}
+
+#gist-section {
+    padding: 145.5px 0;
+}
+
+#gist-section > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#gist-section > div > div:first-child h1{
     width: 635px;
     font-size: 64px;
     font-style: normal;
@@ -90,7 +87,7 @@ html {
     color: #FFF;
 }
 
-#Hero-2 > div:first-child > p {
+#gist-section > div > div:first-child > p {
     width: 468px;
     font-size: 20px;
     font-style: normal;
@@ -101,7 +98,7 @@ html {
     margin: 30px 0 42px;
 }
 
-.book-a-meeting-btn-2 {
+#gist-section .book-a-meeting-btn-2 {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
@@ -112,20 +109,23 @@ html {
     border: none;
     padding: 15px 25px;
     cursor:pointer;
-    transition: 0.4s;
+    transition: 0.3s;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    border-radius: 1px;
 }
 
-.book-a-meeting-btn-2:hover {
+#gist-section .book-a-meeting-btn-2:hover {
     background-color: #1A3BC3;
 }
 
-#Hero-2 > div:first-child .button-container {
+#gist-section > div > div:first-child .button-container {
     display: flex;
     align-items: center;
     column-gap: 21px;
 }
-
-#Hero-2 > div:first-child .button-container p {
+#gist-section > div > div:first-child .button-container p {
     width: 250px;
     font-size: 16px;
     font-style: normal;
@@ -135,25 +135,27 @@ html {
     color: #FFF;
 }
 
-#Hero-2 > div:last-child img {
+#gist-section > div > div:last-child img {
     border-radius: 3px;
 }
 
-.social-media {
+#gist-section > div > div .social-media {
     margin-top: 84px;
     display: flex;
-    align-items: center;
     column-gap: 25px;
 }
 
-#Section-2 {
-    display: flex;
-    justify-content: space-between;
+#headline-sample-section {
     padding-top: 108px;
     padding-bottom: 111px;
 }
 
-#Section-2 .left > h3 {
+#headline-sample-section > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headline-sample-section > div .left > h3 {
     color: #FFF;
     font-size: 42px;
     font-style: normal;
@@ -162,7 +164,7 @@ html {
     letter-spacing: -0.76px;
 } 
 
-#Section-2 .left > p {
+#headline-sample-section > div .left > p {
     color: #FFF;
     width: 540px;
     font-size: 20px;
@@ -174,17 +176,17 @@ html {
     margin-bottom: 36px;
 }
 
-#Section-2 .info-container {
+#headline-sample-section > div .info-container {
     display: flex;
     column-gap: 82px;
 }
 
-#Section-2 .info-container .info div:first-child {
+#headline-sample-section > div .info-container .info div:first-child {
     display: flex;
     align-items:baseline;
 }
 
-#Section-2 .info-container .info div:first-child p:first-child {
+#headline-sample-section > div .info-container .info div:first-child p:first-child {
     color: #FFF;
     font-size: 72px;
     font-style: normal;
@@ -193,7 +195,7 @@ html {
     letter-spacing: -1.3px;
 }
 
-#Section-2 .info-container .info div:first-child p:last-child {
+#headline-sample-section > div .info-container .info div:first-child p:last-child {
     color: #FFF;
     font-size: 52px;
     font-style: normal;
@@ -202,7 +204,7 @@ html {
     letter-spacing: -0.939px;
 }
 
-#Section-2 .info-container .info div:last-child p {
+#headline-sample-section >div .info-container .info div:last-child p {
     color: #FFF;
     width: 203px;
     font-size: 16px;
@@ -212,7 +214,7 @@ html {
     letter-spacing: -0.289px;
 }
 
-#Section-2 .right .rectangle {
+#headline-sample-section > div .right .rectangle {
     width: 530px;
     height: 350px;
     background-color: #E7EBFC;
@@ -222,20 +224,20 @@ html {
     align-items: center;
 }
 
-#Section-2 .right .rectangle img {
+#headline-sample-section > div .right .rectangle img {
     cursor: pointer;
 }
 
-#Section-5 {
-    margin-top: 111px;
-    margin-bottom: 111px;
-    display: flex;
-    flex-direction: column;
-   
-    
+#modern-and-digital-section {
+    padding: 111px 0;
 }
 
-#Section-5 h2 {
+#modern-and-digital-section > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#modern-and-digital-section > div h2 {
     color: #FFF;
     width: 540px;
     font-size: 52px;
@@ -245,13 +247,13 @@ html {
     letter-spacing: -0.94px;
 }
 
-#Section-5 .group {
+#modern-and-digital-section > div .group {
     margin-top: 68px;
     display: flex;
     column-gap: 30px;
 }
 
-#Section-5 .group .box h6
+#modern-and-digital-section > div .group .box h6
 {
     color: #FFF;
     margin-top: 16px;
@@ -262,7 +264,7 @@ html {
     letter-spacing: -0.361px;
 }
 
-#Section-5 .group .box p {
+#modern-and-digital-section > div .group .box p {
     color: #FFF;
     width: 255px;
     margin-top: 7px;
@@ -273,28 +275,31 @@ html {
     letter-spacing: -0.289px;
 }
 
-#Case-Studies-1 {
+#success-story-section {
+    padding: 115px 0;
+}
+
+#success-story-section > div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#Case-Studies-1 .rectangle {
+#success-story-section > div .rectangle {
     background-color: #E7EBFC;
     width: 1110px;
     height: 700px;
     border-radius: 3px;
-    margin: 115px 0;
     display: flex;
     justify-content: space-between;
 }
 
-#Case-Studies-1 .rectangle .left {
+#success-story-section > div .rectangle .left {
     margin-top: 119px;
     margin-left: 95px;
 }
 
-#Case-Studies-1 .rectangle h3 {
+#success-story-section > div .rectangle h3 {
     color: #191919;
     font-size: 42px;
     font-style: normal;
@@ -303,7 +308,7 @@ html {
     letter-spacing: -0.76px;
 }
 
-#Case-Studies-1 .rectangle .left > p {
+#success-story-section > div .rectangle .left > p {
     width: 588px;
     color: #1E1E1E;
     font-size: 42px;
@@ -314,7 +319,7 @@ html {
     margin: 32px 0;
 }
 
-#Case-Studies-1 .rectangle .left .Read {
+#success-story-section > div .rectangle .left .Read {
     color: #2E4FD7;
     font-size: 16px;
     font-style: normal;
@@ -322,32 +327,35 @@ html {
     line-height: 26px;
 } 
 
-#Case-Studies-1 .rectangle .left .Read p 
+#success-story-section > div .rectangle .left .Read p 
 {
     letter-spacing: -0.29px;
     margin: -12px 0 18px;
 }
 
-#Case-Studies-1 .rectangle .right img {
+#success-story-section > div .rectangle .right img {
     margin-top: 116px;
 }
 
-#Process-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 64px;
-    margin-bottom: 58px;
+#approach-section {
+    padding: 64px 0 58px;
 }
 
+#approach-section > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
 
-#Process-3 .group {
+#approach-section > div .group {
     margin-top: 64px;
     display: flex;
     column-gap: 30px;
 }
 
-#Process-3 h3{
+#approach-section > div h3 {
     color: #FFF;
     width: 730px;
     font-size: 42px;
@@ -357,12 +365,12 @@ html {
     letter-spacing: -0.76px;
 }
 
-#Process-3 .group div:first-child {
+#approach-section > div .group > div div:first-child {
     display: flex;
     column-gap: 16px;
 }
 
-#Process-3 .group div:first-child .round 
+#approach-section > div .group > div div:first-child .round 
 {
     width: 72px;
     height: 72px;
@@ -370,11 +378,11 @@ html {
     background-color: #E7EBFC;
 }
 
-#Process-3 .group div:first-child .round img {
+#approach-section > div .group > div div:first-child .round img {
     padding: 24px;
 }
 
-#Process-3 .group div:last-child p:first-child {
+#approach-section > div .group > div div:last-child p:first-child {
     color: #FFF;
     font-size: 24px;
     font-style: normal;
@@ -384,7 +392,7 @@ html {
     margin: 16px 0 4px;
 }
 
-#Process-3 .group div:last-child p:last-child {
+#approach-section > div .group > div div:last-child p:last-child {
     color: #FFF;
     width: 255px;
     font-size: 16px;
@@ -394,31 +402,28 @@ html {
     letter-spacing: -0.29px;
 }
 
-#Process-3 .group .approach 
+#approach-section > div .group .approach 
 {
     display: flex;
     flex-direction: column;
 }
 
-#CTA-1 
-{
+#closing-section {
+    padding: 103px 0 97.5px;
+}
+
+#closing-section > div {
     text-align: center;
 }
 
-#CTA-1 > div 
-{
-    padding-top: 103px;
-    padding-bottom: 97.5px;
-}
-
-#CTA-1 > div .text  
+#closing-section > div .text  
 {
    display: flex;
    flex-direction: column;
    align-items: center;
 }
 
-#CTA-1 h2 {
+#closing-section h2 {
     color: #FFF;
     width: 920px;
     font-size: 52px;
@@ -429,7 +434,7 @@ html {
     text-align: center;
 }
 
-#CTA-1 p {
+#closing-section p {
     color: #FFF;
     width: 826px;
     font-size: 18px;
@@ -441,7 +446,7 @@ html {
     margin: 24px 0 61px;
 }
 
-#CTA-1 > div .line {
+#closing-section > div .line {
     width: 1110px;
     height: 2px;
     background-color: #B4B4B4;
@@ -449,107 +454,141 @@ html {
     margin-bottom: 50px;
 }
 
-#CTA-1 > div .social-medias 
+#closing-section > div .social-medias 
 {
-    height: 43.5px;
     display: flex;
     justify-content: center;
     column-gap: 30px;
 }
 
-#Footer-1  > div
-{
-    margin-top: 70px;
-    padding-bottom: 44px;
+#closing-section > div .book-a-meeting-btn-3 {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.29px;
+    background-color: #2E4FD7;
+    border-radius: 1px;
+    padding: 15px 25px;
 }
 
-#Footer-1 .top {
-    display: flex;
-    justify-content: space-between;
+#closing-section > div .book-a-meeting-btn-3:hover {
+    background-color: #1A3BC3;
 }
 
-#Footer-1 .top .left div p:first-of-type {
+.container3 {
+    width: 1170px;
+    margin: auto;
+}
+
+#footer {
+    padding: 70px 0 44px;
+}
+
+#footer > div .top .left p:first-of-type {
     color: #FFF;
     font-size: 18px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.32px;
+    margin: 33px 0 6px;
 }
 
-#Footer-1 .top .left div p:last-of-type 
-{
+#footer > div .top .left p:last-of-type {
     color: #FFF;
     width: 423px;
     font-size: 16px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: -0.29px;
+    margin: 6px 0;
 }
 
-#Footer-1 .top .left .text button 
-{
-    padding: 10px 0;
+#footer > div .top .left .button-text {
     color: #FFF;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
     font-size: 16px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
     letter-spacing: -0.29px;
-}
-
-#Footer-1 .top .right .content 
-{
+    background-color: transparent;
+    cursor: pointer;
     display: flex;
-    column-gap: 26px;
+    column-gap: 10px;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 22px;
 }
 
-#Footer-1 .top .right .content a
-{
+#footer > div .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer > div .line {
+    background-color: #FFF;
+    opacity: 0.07999999821186066;
+    width: 1170px;
+    height: 1.4px;
+}
+
+#footer > div .top .right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-end;
+}
+
+#footer > div .top .right .list {
+    display: flex;
+    column-gap: 27px;
+}
+
+#footer > div .top .right .list:first-child {
+    margin-top: 52px;
+}
+
+#footer > div .top .right .list a {
     color: #FFF;
     font-size: 16px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: -0.29px;
 }
 
-#Footer-1 > div .bottom 
-{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-#Footer-1 > div .bottom p:first-child 
-{
+#footer > div .bottom p:first-child {
     color: #FFF;
     width: 387px;
     font-size: 14px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: -0.25px;
+    margin-top: 30.6px;
 }
 
-#Footer-1 > div .bottom p:last-child 
-{
+#footer > div .bottom p:last-child {
     color: #FFF;
     font-size: 14px;
+    font-family: Inter;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: -0.25px;
+    margin-top: 36.6px;
 }
 
-#Footer-1 > div .line 
-{
-    width: 1170px;
-    height: 1.4px;
-    background-color: #FFF;
-    opacity: 0.07999999821186066;
+#footer > div .bottom {
+    display: flex;
+    justify-content: space-between;
 }
