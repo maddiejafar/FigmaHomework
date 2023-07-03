@@ -521,6 +521,7 @@ html {
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
+    border-radius: 1px;
 }
 
 #closing > div .book-a-meeting-btn2:hover {

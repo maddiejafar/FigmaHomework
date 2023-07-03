@@ -194,7 +194,7 @@ html {
     height: 662px;
     background-color: #fff;
     border: 1px solid #B4B4B4;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -306,6 +306,7 @@ select:invalid{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.175px;
+    padding-left: 16px;
 }
 
 option{
@@ -348,6 +349,18 @@ option{
 #offices > div > div {
     display: flex;
     justify-content: space-between;
+}
+
+#offices > div > div .item .maps {
+    width: 540px;
+    height: 470px;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid #ECECEC;
+    background: #FFF;
+}
+
+#offices > div > div .item .maps .info {
+    padding-left: 30px;
 }
 
 #offices > div > div .item .maps .info h4 {
@@ -509,3 +522,4 @@ option{
     display: flex;
     justify-content: space-between;
 }
+
